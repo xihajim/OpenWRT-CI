@@ -53,5 +53,6 @@ if [[ $WRT_REPO == *"lede"* ]]; then
 else
 	echo "CONFIG_PACKAGE_luci=y" >> ./.config
 	echo "CONFIG_LUCI_LANG_zh_Hans=y" >> ./.config
-	echo "CONFIG_PACKAGE_luci-app-homeproxy=y" >> ./.config
+#	echo "CONFIG_PACKAGE_luci-app-homeproxy=y" >> ./.config
+ 	echo "CONFIG_PACKAGE_luci-app-passwall=y" >> ./.config
 fi
