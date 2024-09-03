@@ -240,5 +240,6 @@ jobs:
             分支：${{env.WRT_BRANCH}}
             平台：${{env.WRT_TARGET}}
             设备：${{env.WRT_TYPE}}
+            设备：ZN-M2 JDCLOUD-AX1800PRO
             地址：${{env.WRT_IP}}
             密码：${{env.WRT_PW}}
